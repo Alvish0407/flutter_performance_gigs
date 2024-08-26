@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_performance_gigs/gig_1.dart';
+import 'package:flutter_performance_gigs/gig_2.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: const Gig1(),
+      home: const Gig2(),
     );
   }
 }
